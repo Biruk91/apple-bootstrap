@@ -1,0 +1,149 @@
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+}
+.brief-discription {
+  font-size: 3em;
+}
+.learn-buy {
+  margin-top: 10px;
+}
+.learn-buy a {
+  color: #2997ff;
+  text-decoration: none;
+  padding-right: 15px;
+}
+.learn:hover, .buy:hover {
+  text-decoration: underline;
+  text-decoration-color: #2997ff;
+}
+.macBook, .macBook-1, .macBook-2, .macBook-3, .macBook-4, .macBook-5, .macBook-6 {
+  text-align: center;
+}
+.macBook div {
+  padding-bottom: 20px;
+}
+.section-2 {
+  height: 550px;
+  color: white;
+  background-image: url("../images/home/iphone11-pro-bg.jpg");
+  background-position: center;
+}
+.section-2 .brief-discription {
+  font-size: 2em;
+}
+.section-3 {
+  height: 550px;
+  background-image: url("../images/home/iphone11-bg.jpg");
+  background-position: center;
+}
+.section-3 .brief-discription {
+  font-size: 2em;
+}
+.macBook-1 {
+  height: 550px;
+  background-image: url("../images/home/watch-series-5.jpg");
+  background-position: center;
+}
+.macBook-2 {
+  height: 550px;
+  background-color: #165ca9;
+  color: white;
+  background-position: center;
+}
+.section-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  margin: 15px;
+}
+.section-4 h1 {
+  font-size: 30px;
+}
+.section-4 .brief-discription {
+  font-size: 1.5em;
+}
+.section-5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  margin: 15px;
+}
+
+.section-2 .macBook h1,
+.section-3 .macBook h1,
+.section-4 .macBook-1 img,
+.section-4 .macBook-2 h1,
+.section-5 .macBook-3 .appleTv,
+.section-5 .macBook-4 h1,
+.section-6 .macBook-5 img,
+.section-6 .macBook-6 img {
+  padding-top: 50px;
+}
+.section-5 .macBook-3 .appleTv {
+  margin-bottom: 320px;
+}
+.section-5 .macBook-3 a{
+  color: black;
+  text-decoration: none;
+}
+.section-5 .macBook-3 a:hover {
+  text-decoration: underline;
+}
+.section-5 .macBook-3 .brief-discription {
+  font-size: 30px;
+}
+.section-5 .macBook-4 h1 {
+  font-size: 30px;
+}
+.section-5 .macBook-4 .learn-buy {
+  padding-bottom: 50px;
+}
+.section-5 .macBook-4 p {
+  font-size: 30px;
+}
+.section-5 .macBook-4 img {
+  height: 300px;
+}
+.macBook-3 {
+  height: 550px;
+  background-position: center;
+  background-image: url("../images/home/apple-tv-background.jpg");
+}
+.macBook-4 {
+  background-color: black;
+  color: white;
+  height: 550px;
+  background-position: center;
+}
+.section-6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 15px;
+  margin: 15px;
+}
+.macBook-5 {
+  height: 550px;
+  background-position: center;
+  background-image: url("../images/home/apple-card.jpg");
+}
+.macBook-6 {
+  height: 550px;
+  background-position: center;
+  background-image: url("../images/home/new-ipad.jpg");
+}
+.section-6 .macBook-5 .brief-discription, .macBook-6 .brief-discription {
+  font-size: 30px;
+}
+
+
+
+
+/* Media Query for Header*/
+@media (max-width: 767px) {
+  .section-4, .section-5, .section-6 {
+  display: grid;
+  grid-template-columns: 1fr;
+  }
+}

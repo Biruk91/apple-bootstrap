@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+header a {
+  padding-right: 48px;
+  font-size: 12px;
+  font-family: Arial;
+  color: rgb(223, 205, 205);
+  text-decoration: none;
+}
+header img {
+  width: 15px;
+}
+
+
+/* Media Query for Header*/
+@media (max-width: 540px) {
+  header a {
+    padding-right: 15px;
+  }
+}
+@media (min-width: 541px) and (max-width: 800px) {
+  header a {
+    padding-right: 22px;
+  }
+}
